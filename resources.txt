@@ -1,8 +1,8 @@
-Semaine 02 – Flexbox et positions CSS
-Semaine 03 – Accessibilité et unités de mesure
-Semaine 04 – Design adaptatif
-Semaine 06 – Modules CSS et JavaScript
-Semaine 07 – Node.js, NPM et Vite
+Semaine 02  Flexbox et positions CSS
+Semaine 03 Accessibilité et unités de mesure
+Semaine 04  Design adaptatif
+Semaine 06  Modules CSS et JavaScript
+Semaine 07  Node.js, NPM et Vite
 
 BIBLIOTHÈQUES JAVASCRIPT
 
@@ -18,7 +18,15 @@ Claude au débogage
 
 
 IMAGES
-https://www.pexels.com/photo/woman-in-printed-oversized-t-shirt-promoting-motherhood-36908563/
+https://www.pexels.com/photo/trendy-oversized-graphic-t-shirt-for-women-37482328/
 https://www.pexels.com/photo/woman-in-white-t-shirt-with-dental-humor-graphic-36995714/
+https://www.pexels.com/sv-se/foto/kvinna-i-overdimensionerad-t-shirt-med-tryck-leende-37066757/
+https://www.pexels.com/photo/woman-in-printed-oversized-t-shirt-promoting-motherhood-36908563/
+https://www.pexels.com/photo/casual-male-model-in-printed-oversized-t-shirt-37014370/
 https://www.pexels.com/photo/a-low-angle-shot-of-a-woman-in-pink-hoodie-looking-with-a-serious-face-6543933/
+https://www.pexels.com/photo/man-in-purple-hoodie-looking-at-the-camera-7763186/
+https://www.pexels.com/photo/a-man-wearing-a-hoodie-sweater-9775547/
+https://www.pexels.com/photo/a-person-wearing-green-pants-13125260/
 https://www.pexels.com/photo/person-wearing-trendy-denim-fashion-outfit-35568702/
+https://www.pexels.com/photo/casual-style-with-tattooed-arms-in-ripped-jeans-30710035/
+https://www.pexels.com/photo/stylish-black-cargo-jeans-on-blue-bench-30710027/
