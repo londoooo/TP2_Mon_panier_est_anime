@@ -1,5 +1,8 @@
 import './style.css';
 import { gsap } from 'gsap';
+import Swiper from 'swiper';
+import { Navigation } from 'swiper/modules';
+import 'swiper/css';
 
 // Animation du titre
 
@@ -33,4 +36,23 @@ gsap.from('.hero-image', {
     opacity: 0,
     duration: 1.5,
     delay: 0.3
+});
+
+// Carrousel des produits tendance
+
+const carrousel = new Swiper('.swiper', {
+    modules: [Navigation],
+    slidesPerView: 1,
+    spaceBetween: 20,
+
+    navigation: {
+        nextEl: '.suivant',
+        prevEl: '.precedent'
+    },
+
+    breakpoints: {
+        768: {
+            slidesPerView: 2
+        }
+    }
 });

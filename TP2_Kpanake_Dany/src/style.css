@@ -147,6 +147,30 @@ nav a:focus-visible {
     color: blue;
 }
 
+/* Carrousel des produits tendance */
+
+.swiper-slide .produit {
+    width: auto;
+}
+
+.navigation-carrousel {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.navigation-carrousel button {
+    background-color: #111111;
+    color: white;
+    font-size: 1rem;
+    padding: 1em;
+}
+
+.navigation-carrousel button:focus-visible {
+    color: yellow;
+}
+
 /* Design adaptatif */
 
 @media (width <= 768px) {
