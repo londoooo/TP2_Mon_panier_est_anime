@@ -170,11 +170,57 @@ nav a:focus-visible {
 .navigation-carrousel button:focus-visible {
     color: yellow;
 }
+/* Page boutique */
+
+.boutique {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+/* Filtres des produits */
+
+.filtres {
+    background-color: #dddddd;
+    padding: 1em;
+}
+
+.options-filtres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+/* Groupes de produits */
+
+.boutique .produits {
+    margin-bottom: 2em;
+}
+
+/* Boutons des produits */
+
+.produit button {
+    background-color: #111111;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8em;
+    width: 100%;
+}
+
+.produit button:focus-visible {
+    color: yellow;
+}
 
 /* Design adaptatif */
 
 @media (width <= 768px) {
+  .boutique {
+    padding: 1em;
+}
 
+.options-filtres {
+    flex-direction: column;
+}
     h1 {
         font-size: 2rem;
     }
