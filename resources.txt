@@ -1,0 +1,24 @@
+Semaine 02 – Flexbox et positions CSS
+Semaine 03 – Accessibilité et unités de mesure
+Semaine 04 – Design adaptatif
+Semaine 06 – Modules CSS et JavaScript
+Semaine 07 – Node.js, NPM et Vite
+
+BIBLIOTHÈQUES JAVASCRIPT
+
+GSAP
+https://gsap.com/docs/v3/
+
+Swiper
+https://swiperjs.com/get-started
+
+INTELLIGENCE ARTIFICIELLE
+
+Claude au débogage 
+
+
+IMAGES
+https://www.pexels.com/photo/woman-in-printed-oversized-t-shirt-promoting-motherhood-36908563/
+https://www.pexels.com/photo/woman-in-white-t-shirt-with-dental-humor-graphic-36995714/
+https://www.pexels.com/photo/a-low-angle-shot-of-a-woman-in-pink-hoodie-looking-with-a-serious-face-6543933/
+https://www.pexels.com/photo/person-wearing-trendy-denim-fashion-outfit-35568702/
