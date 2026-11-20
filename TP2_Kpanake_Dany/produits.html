@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFGRID. | Boutique</title>
+</head>
+<body>
+
+    <!-- En-tête et navigation -->
+    <header>
+        <nav>
+            <a href="index.html">OFFGRID.</a>
+            <a href="index.html">Accueil</a>
+            <a href="produits.html">Boutique</a>
+        </nav>
+    </header>
+
+    <main class="boutique">
+
+        <h1>Notre collection</h1>
+        <p>Découvrez tous nos vêtements streetwear.</p>
+
+        <!-- Filtres des produits -->
+        <section class="filtres">
+            <h2>Filtrer les produits</h2>
+
+            <div class="options-filtres">
+
+                <label>
+                    <input type="checkbox" id="filtre-tshirts" checked>
+                    T-shirts
+                </label>
+
+                <label>
+                    <input type="checkbox" id="filtre-hoodies" checked>
+                    Chandails à capuchon
+                </label>
+
+                <label>
+                    <input type="checkbox" id="filtre-pantalons" checked>
+                    Pantalons
+                </label>
+
+            </div>
+        </section>
+
+        <!-- Collection de produits -->
+        <section>
+            <h2>Tous les produits</h2>
+
+            <!-- Groupe des t-shirts -->
+            <div class="produits" id="groupe-tshirts">
+
+                <article class="produit tshirt">
+                    <img src="/images/tshirt1.jpg" alt="T-shirt Essential">
+                    <h3>T-shirt Essential</h3>
+                    <p>45,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+                <article class="produit tshirt">
+                    <img src="/images/tshirt2.jpg" alt="T-shirt Oversize">
+                    <h3>T-shirt Oversize</h3>
+                    <p>50,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+                <article class="produit tshirt">
+                    <img src="/images/tshirt3.jpg" alt="T-shirt Graphic">
+                    <h3>T-shirt Graphic</h3>
+                    <p>55,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+                <article class="produit tshirt">
+                    <img src="/images/tshirt4.jpg" alt="T-shirt Washed">
+                    <h3>T-shirt Washed</h3>
+                    <p>60,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+            </div>
+
+            <!-- Groupe des chandails à capuchon -->
+            <div class="produits" id="groupe-hoodies">
+
+                <article class="produit hoodie">
+                    <img src="/images/hoodie1.jpg" alt="Chandail Shadow">
+                    <h3>Hoodie Shadow</h3>
+                    <p>85,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+                <article class="produit hoodie">
+                    <img src="/images/hoodie2.jpg" alt="Chandail Concrete">
+                    <h3>Hoodie Concrete</h3>
+                    <p>90,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+                <article class="produit hoodie">
+                    <img src="/images/hoodie3.jpg" alt="Chandail Archive">
+                    <h3>Hoodie Archive</h3>
+                    <p>95,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+                <article class="produit hoodie">
+                    <img src="/images/hoodie4.jpg" alt="Chandail Classic">
+                    <h3>Hoodie Classic</h3>
+                    <p>80,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+            </div>
+
+            <!-- Groupe des pantalons -->
+            <div class="produits" id="groupe-pantalons">
+
+                <article class="produit pantalon">
+                    <img src="/images/cargopants.jpg" alt="Pantalon cargo Utility">
+                    <h3>Cargo Utility</h3>
+                    <p>95,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+                <article class="produit pantalon">
+                    <img src="/images/cargopants2.jpg" alt="Pantalon Cargo">
+                    <h3>Pantalon Cargo</h3>
+                    <p>100,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+                <article class="produit pantalon">
+                    <img src="/images/cargo3.jpg" alt="Pantalon Baggy">
+                    <h3>Pantalon Baggy</h3>
+                    <p>90,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+                <article class="produit pantalon">
+                    <img src="/images/cargopants4.jpg" alt="Pantalon Denim">
+                    <h3>Pantalon Denim</h3>
+                    <p>110,00 $</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>OFFGRID.</p>
+        <p>© 2026 OFFGRID. — Tous droits réservés.</p>
+    </footer>
+
+    <script type="module" src="./src/produits.js"></script>
+
+</body>
+</html>
