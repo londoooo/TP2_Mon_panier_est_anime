@@ -1,33 +1,43 @@
+
 /* Styles généraux */
 
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
     background-color: #f0f0ed;
     color: #111111;
     min-height: 100vh;
+    line-height: 1.5;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin: 0 0 0.5em 0;
 }
 
 h2 {
     font-size: 2rem;
+    margin: 0 0 1em 0;
 }
 
 h3 {
     font-size: 1.2rem;
+    margin: 0 0 0.5em 0;
 }
 
 p {
     font-size: 1rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* En-tête et navigation */
 
 header {
     background-color: #111111;
-    padding: 1.5em;
+    padding: 1.5em 2em;
 }
 
 nav {
@@ -42,7 +52,9 @@ nav {
 
 nav a {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5em;
 }
 
 /* Section hero */
@@ -54,7 +66,7 @@ nav a {
     justify-content: space-between;
     align-items: center;
     gap: 2em;
-    padding: 2em;
+    padding: 3em 2em;
 }
 
 .hero-texte {
@@ -64,6 +76,10 @@ nav a {
     align-items: flex-start;
 }
 
+.hero-texte p {
+    margin-bottom: 2em;
+}
+
 .hero-image {
     width: 50%;
 }
@@ -71,7 +87,8 @@ nav a {
 .hero a {
     background-color: white;
     color: #111111;
-    padding: 1em;
+    padding: 1em 2em;
+    font-weight: bold;
 }
 
 /* Section produits tendance */
@@ -79,38 +96,51 @@ nav a {
 .tendances {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 2em;
+    padding: 3em 2em;
 }
 
 .produits {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1.5em;
 }
 
 .produit {
     background-color: white;
     padding: 1em;
-    width: 25%;
+    width: 28%;
 }
 
 .produit img {
     width: 100%;
+    height: auto;
+    display: block;
+}
+
+.produit h3 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.produit p {
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 /* Section catégories */
 
 .categories {
     background-color: #dddddd;
-    padding: 2em;
+    padding: 3em 2em;
 }
 
 .liste-categories {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1.5em;
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -119,11 +149,20 @@ nav a {
     background-color: #111111;
     color: white;
     padding: 1em;
-    width: 25%;
+    width: 28%;
+    text-align: center;
 }
 
 .liste-categories img {
     width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.liste-categories h3 {
+    margin: 0;
+    padding: 0.5em;
 }
 
 /* Pied de page */
@@ -131,10 +170,14 @@ nav a {
 footer {
     background-color: #111111;
     color: white;
-    padding: 2em;
+    padding: 3em 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer p {
+    margin: 0.5em;
 }
 
 /* Navigation par tabulation */
@@ -157,38 +200,44 @@ nav a:focus-visible {
     display: flex;
     justify-content: center;
     gap: 1em;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .navigation-carrousel button {
     background-color: #111111;
     color: white;
     font-size: 1rem;
-    padding: 1em;
+    padding: 1em 2em;
 }
 
 .navigation-carrousel button:focus-visible {
     color: yellow;
 }
+
 /* Page boutique */
 
 .boutique {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 2em;
+    padding: 3em 2em;
+}
+
+.boutique h1 {
+    margin-bottom: 0.5em;
 }
 
 /* Filtres des produits */
 
 .filtres {
     background-color: #dddddd;
-    padding: 1em;
+    padding: 2em;
+    margin-bottom: 2em;
 }
 
 .options-filtres {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1.5em;
 }
 
 /* Groupes de produits */
@@ -203,7 +252,8 @@ nav a:focus-visible {
     background-color: #111111;
     color: white;
     font-size: 1rem;
-    padding: 0.8em;
+    font-weight: bold;
+    padding: 1em;
     width: 100%;
 }
 
@@ -211,18 +261,20 @@ nav a:focus-visible {
     color: yellow;
 }
 
-/* Design adaptatif */
+/* Design adaptatif - Tablette */
 
 @media (width <= 768px) {
-  .boutique {
-    padding: 1em;
-}
 
-.options-filtres {
-    flex-direction: column;
-}
+    .boutique {
+        padding: 1em;
+    }
+
+    .options-filtres {
+        flex-direction: column;
+    }
+
     h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     h2 {
@@ -231,7 +283,7 @@ nav a:focus-visible {
 
     .hero {
         flex-direction: column;
-        padding: 1em;
+        padding: 2em;
     }
 
     .hero-texte {
@@ -262,17 +314,40 @@ nav a:focus-visible {
 
 }
 
+/* Design adaptatif  Mobile */
+
 @media (width <= 400px) {
 
     nav {
         flex-direction: column;
+        align-items: center;
     }
 
-    .tendances {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .hero {
         padding: 1em;
     }
 
+    .hero a {
+        padding: 1em;
+    }
+
+    .tendances {
+        padding: 2em 1em;
+    }
+
     .categories {
+        padding: 2em 1em;
+    }
+
+    .boutique {
+        padding: 1em;
+    }
+
+    .filtres {
         padding: 1em;
     }
 
